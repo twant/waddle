@@ -1,6 +1,6 @@
 require 'sinatra'
 require './app.rb'
-require "rails/all"
+require 'sprockets/railtie'
 
 run ApplicationController
 
