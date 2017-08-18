@@ -2,7 +2,7 @@ require 'bundler'
 Bundler.require
 require "sinatra"
 require "sinatra/activerecord"
-require "rails/all"
+
 require "./models.rb"
 set :database, "sqlite3:myblogdb.sqlite3"
 
