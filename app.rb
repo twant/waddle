@@ -1,7 +1,7 @@
 require 'bundler'
 Bundler.require
 require "sinatra"
-require 'sprockets/railtie'
+
 require "sinatra/activerecord"
 
 require "./models.rb"
